@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,700;1,400;1,500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
  *{
 	margin: 0;
 	padding: 0;
@@ -15,13 +15,13 @@
 	position: fixed;
 	width: 100%;
 	padding: 15px 0px;
-	font-family: Cabin;
-	background: turquoise;
+	font-family: Quicksand;
+	background: transparent;
 	z-index: 1;
 }
 .navbar.sticky{
 	padding: 15px;    
-	background: tomato;
+	background: lightgray;
 }
 .navbar .max-width{
 	display: flex;
@@ -31,7 +31,7 @@
 .navbar .logo a{
 	color: white;
 	font-size: 45px;
-	font-weight: 400;
+	font-weight: 700;
 }
 .navbar .logo a:hover{
 	color: red;
@@ -65,28 +65,29 @@
 /*Style for Home Section*/
 .home{
 	display: flex;
-	background: url("images/banner.jpg")no-repeat center;
+	background: url("images/webdesign1.jpg")no-repeat center;
 	height: 100vh;
 	color: red;
 	min-height: 500px;
 	max-height: 840px;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: Cabin;
+	font-family: Quicksand;
 }
 .home .max-width{
 	margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
-	font-size: 25px;
+	font-size: 35px;
+	font-weight: 600;
 }
 .home .home-content .text-2{
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: 700;
 	margin-left: -3px;
 }
 .home .home-content .text-3{
-	font-size: 25px;
+	font-size: 35px;
 }
 .home .home-content a{
 	display: inline-block;
@@ -96,12 +97,12 @@
 	padding: 12px 36px;
 	margin-top: 30px;
 	border-radius: 20px;
-	transition: all  0.5s linear;
+	transition: all  0.1s linear;
 	/*transition effect not working*/
 }
 .home .home-content a:hover{
 	color: white;
-	background: turquoise;
+	background: gray;
 }
 
 }	
@@ -114,7 +115,7 @@ section{
 	background: url("images/banner-5.jpg")repeat center;
 	background-size: cover;
 	background-attachment: scroll;
-	font-family: Cabin;
+	font-family: Quicksand;
 	height: 100vh;
 	min-height: 500px;
 	max-height: 840px;
@@ -153,10 +154,10 @@ section{
 /*Style for Services Section*/
 .Services{
 	color: black;
-	background: tomato;
+	background: cadetblue;
 }
 .Services .title{
-	font-family: Cabin;
+	font-family: Quicksand;
 	color: white;
 	text-align: center;
 	font-size: 30px;
@@ -178,10 +179,10 @@ section{
 
 }
 .Services .Services-content .card:hover{
-	background: aqua;
+	background: tomato;
 }
 .Services .Services-content .card .box{
-	transition: all 0.3s ease;
+	transition: all 0.3s ease ;
 }
 .Services .Services-content .card .box:hover{
 	transform: scale(1.05);
@@ -191,13 +192,13 @@ section{
 	width: 60px;
 }
 .Services .Services-content .text{
-	font-family: Cabin;
+	font-family: Quicksand;
 	font-size: 25px;
 	font-weight: 700;
 	margin: 10px 0;
 }
 .Services .Services-content p{
-	font-family: 'Cabin', ital;
+	font-family: Quicksand;
 	font-size: 18px;
 }
 /*Style for Services Section*/
@@ -206,7 +207,7 @@ section{
 	background: url("images/banner-3.jpg")repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: Cabin;
+	font-family: Quicksand;
 	font-size: 18px;	
 }
 .Skills .title{
@@ -243,7 +244,7 @@ section{
 }
 .Skills .Skills-content .left a:hover{
 	color: white;
-	background: turquoise;
+	background: gray;
 }
 .Skills .Skills-content .right .bar{
 	margin-bottom:  15px;
@@ -298,7 +299,7 @@ section{
 	background: url("images/banner-4.jpg")repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: Cabin;	
+	font-family: Quicksand;	
 }
 .Contact .title{
 	text-align: center;
@@ -366,7 +367,7 @@ section{
 } 
 .Contact .right form .field input,
 .Contact .right form .textarea textarea{
-	font-family: Cabin;
+	font-family: Quicksand;
 	height: 100%;
 	width: 100%;
 	border: 1px solid lightgray;
@@ -400,11 +401,11 @@ section{
 .Contact .right form .button button:hover{
 	color: white;
 	border: 2px solid white;
-	background: turquoise;
+	background: gray;
 }
 /*footer styling*/
 footer{
-	font-family: Cabin;
+	font-family: Quicksand;
 	color: white;
 	background: black;
 	text-align: center;
