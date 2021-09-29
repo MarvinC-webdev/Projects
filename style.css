@@ -161,14 +161,14 @@ section{
 	color: white;
 	text-align: center;
 	font-size: 30px;
-	padding-bottom:  50px; 
+	padding-top:  100px; 
 }
 .Services .Services-content{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px;  /*revised*/
+	padding-bottom: 10px;  /*revised*/
 }
 .Services .Services-content .card{
 	width: calc(33% - 20px);
@@ -208,7 +208,8 @@ section{
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: Quicksand;
-	font-size: 18px;	
+	font-size: 18px;
+	padding-top: 10%;	
 }
 .Skills .title{
 	text-align: center;
